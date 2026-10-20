@@ -1,1 +1,183 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 12 Information Systems Practicals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Grade 12 Information Systems</h1>
+    <p>Practical Activities and Student Workbook</p>
+</header>
+
+<nav>
+    <a href="#practical1">Practical 1</a>
+    <a href="#document">Ethical Rules</a>
+    <a href="#practical2">Practical 2</a>
+</nav>
+
+<main>
+    <section id="practical1" class="card">
+        <h2>Practical 1: Ethical and Legal Issues</h2>
+        <p><strong>Objective:</strong> Identify ethical and legal problems
+        that occur when using information systems.</p>
+
+        <h3>Activity 1: Identify the Problem</h3>
+        <p>Choose the ethical issue and the correct action for each situation.</p>
+
+        <form id="ethicsForm">
+
+            <div class="question">
+                <p>1. A student copies an internet assignment and submits it as their own.</p>
+                <label>Ethical issue</label>
+                <select name="issue1" required>
+                    <option value="">Choose an issue</option>
+                    <option value="plagiarism">Plagiarism</option>
+                    <option value="privacy">Violation of privacy</option>
+                    <option value="piracy">Software piracy</option>
+                </select>
+                <label>Correct action</label>
+                <select name="action1" required>
+                    <option value="">Choose an action</option>
+                    <option value="cite">Write original work and cite sources</option>
+                    <option value="share">Share private information</option>
+                    <option value="copy">Continue copying assignments</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <p>2. A student shares a classmate's private photos without permission.</p>
+                <label>Ethical issue</label>
+                <select name="issue2" required>
+                    <option value="">Choose an issue</option>
+                    <option value="plagiarism">Plagiarism</option>
+                    <option value="privacy">Violation of privacy</option>
+                    <option value="unauthorized">Unauthorized access</option>
+                </select>
+                <label>Correct action</label>
+                <select name="action2" required>
+                    <option value="">Choose an action</option>
+                    <option value="share">Share the photos again</option>
+                    <option value="respect">Respect privacy and get permission</option>
+                    <option value="ignore">Ignore the person's wishes</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <p>3. Someone accesses another person's email without permission.</p>
+                <label>Ethical or legal issue</label>
+                <select name="issue3" required>
+                    <option value="">Choose an issue</option>
+                    <option value="unauthorized">Unauthorized access</option>
+                    <option value="piracy">Software piracy</option>
+                    <option value="plagiarism">Plagiarism</option>
+                </select>
+                <label>Correct action</label>
+                <select name="action3" required>
+                    <option value="">Choose an action</option>
+                    <option value="continue">Continue accessing the account</option>
+                    <option value="protect">Respect account security and obtain authorization</option>
+                    <option value="share">Publish the password</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <p>4. A student installs pirated software on a school computer.</p>
+                <label>Ethical or legal issue</label>
+                <select name="issue4" required>
+                    <option value="">Choose an issue</option>
+                    <option value="piracy">Software piracy</option>
+                    <option value="privacy">Violation of privacy</option>
+                    <option value="defamation">Cyber defamation</option>
+                </select>
+                <label>Correct action</label>
+                <select name="action4" required>
+                    <option value="">Choose an action</option>
+                    <option value="pirate">Install more pirated software</option>
+                    <option value="licensed">Use properly licensed software</option>
+                    <option value="share">Share illegal copies</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <p>5. A person posts false information about a teacher on social media.</p>
+                <label>Ethical issue</label>
+                <select name="issue5" required>
+                    <option value="">Choose an issue</option>
+                    <option value="defamation">Cyber defamation</option>
+                    <option value="piracy">Software piracy</option>
+                    <option value="plagiarism">Plagiarism</option>
+                </select>
+                <label>Correct action</label>
+                <select name="action5" required>
+                    <option value="">Choose an action</option>
+                    <option value="spread">Spread the information further</option>
+                    <option value="verify">Verify facts and correct or remove false claims</option>
+                    <option value="ignore">Create more false posts</option>
+                </select>
+            </div>
+
+            <button type="submit">Check Answers</button>
+            <button type="reset" class="secondary">Reset</button>
+        </form>
+
+        <div id="ethicsResult" aria-live="polite"></div>
+    </section>
+
+    <section id="document" class="card">
+        <h2>Activity 2: Responsible Use of Information Systems</h2>
+        <p>Write five rules for ethical computer and internet use.</p>
+
+        <label for="studentName">Student Name</label>
+        <input id="studentName" placeholder="Enter your name">
+
+        <label for="rule1">Rule 1</label>
+        <textarea id="rule1" placeholder="Write your first rule"></textarea>
+
+        <label for="rule2">Rule 2</label>
+        <textarea id="rule2" placeholder="Write your second rule"></textarea>
+
+        <label for="rule3">Rule 3</label>
+        <textarea id="rule3" placeholder="Write your third rule"></textarea>
+
+        <label for="rule4">Rule 4</label>
+        <textarea id="rule4" placeholder="Write your fourth rule"></textarea>
+
+        <label for="rule5">Rule 5</label>
+        <textarea id="rule5" placeholder="Write your fifth rule"></textarea>
+
+        <button id="downloadDoc">Download Word Document</button>
+        <p class="hint">The document will be prepared as a Word-compatible
+        file. You can open it in Microsoft Word or LibreOffice Writer.</p>
+    </section>
+
+    <section id="practical2" class="card">
+        <h2>Practical 2: Social Issues in Information Systems</h2>
+        <p><strong>Objective:</strong> Examine how information systems
+        affect individuals and society.</p>
+
+        <h3>Activity 1: Digital Behavior Survey</h3>
+        <p>Enter responses from five classmates. Do not enter private
+        information or names unless you have permission.</p>
+
+        <form id="surveyForm">
+            <div id="surveyQuestions"></div>
+            <button type="submit">Calculate Survey Results</button>
+            <button type="reset" class="secondary">Clear Survey</button>
+        </form>
+
+        <div id="surveyResult" aria-live="polite"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Grade 12 Information Systems | Educational Practical Workbook</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

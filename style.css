@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+header {
+    background: #174ea6;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background: #123b78;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #174ea6;
+}
+
+h3 {
+    color: #334155;
+}
+
+.question {
+    border: 1px solid #dbe3ee;
+    padding: 18px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #b8c4d3;
+    border-radius: 6px;
+    font: inherit;
+    background: white;
+}
+
+textarea {
+    min-height: 65px;
+    resize: vertical;
+}
+
+button {
+    background: #174ea6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 18px;
+    margin: 8px 5px 8px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #103778;
+}
+
+.secondary {
+    background: #64748b;
+}
+
+.secondary:hover {
+    background: #475569;
+}
+
+.result {
+    background: #e8f5e9;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.hint {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.survey-person {
+    border: 1px solid #dbe3ee;
+    padding: 15px;
+    margin: 18px 0;
+    border-radius: 8px;
+}
+
+footer {
+    background: #123b78;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .card {
+        padding: 16px;
+    }
+}
